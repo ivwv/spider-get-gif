@@ -5,7 +5,7 @@ const fs = require("fs");
 const path = require("path");
 
 class GetGif {
-  constructor(from = 257, to = 500) {
+  constructor(from, to) {
     // 动图的起始页
     this.from = from;
     // 动图的结束页
